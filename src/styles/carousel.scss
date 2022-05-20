@@ -1,0 +1,21 @@
+@import './variable.scss';
+
+.carousel {
+    @media #{$media-mobile-sm} {
+        margin-top: 50px;
+        min-height: 300px;
+        img{
+            min-height: 300px;
+        }
+    }
+    
+}
+.carousel-caption{
+   bottom: 400px;
+   @media #{$media-mobile-sm}{
+    bottom: 60px;
+   }
+}
+.img{
+    opacity: 0.4;
+}

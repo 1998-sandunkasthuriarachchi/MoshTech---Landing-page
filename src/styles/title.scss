@@ -1,0 +1,35 @@
+@import './variable.scss';
+
+.title-2{
+    font-size: 3rem;
+    letter-spacing: 2px; 
+    font-family: $opensans;
+    font-weight: 800;
+    background: $red_color;
+    background: -webkit-linear-gradient(to right, $red_color 3%, #4FBDBA 40%);
+    background: -moz-linear-gradient(to right, $red_color 3%, #4FBDBA 40%);
+    background: linear-gradient(to right, $red_color 3%, #4FBDBA 40%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media #{$media-mobile-sm} {
+        font-size: 1.5rem;
+    }
+}
+
+.title-3{
+    font-size: 2rem;
+    letter-spacing: 1px; 
+    font-family: $Montserrat  ;
+    font-weight: 800;
+    color: #fff;
+    padding: 5px;
+}
+
+.caption{
+    margin-top: 15px;
+    font-family: $Montserrat;
+    font-weight: 600;
+    color: darkgrey;
+    opacity: 55%;
+}

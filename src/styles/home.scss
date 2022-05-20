@@ -1,0 +1,45 @@
+@import './variable.scss';
+
+body{
+    overflow-x: hidden;
+}
+
+.main{
+    border-radius: 15px;
+    box-shadow: -1px 1px 29px 7px rgba(125,31,202,0.75);
+    -webkit-box-shadow: -1px 1px 29px 7px rgba(125,31,202,0.75);
+    -moz-box-shadow: -1px 1px 29px 7px rgba(125,31,202,0.75);
+}
+.title-1{
+    font-family: $Montserrat;
+    font-size: 4.5rem;
+    font-weight: 700;
+    .nft-text{
+    
+        background: $red_color;
+        background: -webkit-linear-gradient(to right, $red_color 3%, #4FBDBA 40%);
+        background: -moz-linear-gradient(to right, $red_color 3%, #4FBDBA 40%);
+        background: linear-gradient(to right, $red_color 3%, #4FBDBA 40%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    @media #{$media-mobile-sm} {
+        font-size: 1.8rem;
+    }
+}
+
+.section-1{
+    letter-spacing: 1px; 
+    line-height: 30px;
+    font-family: $Montserrat;
+    color: #fff;
+    font-size: 12pt;
+    font-weight: 600;
+
+    ::first-letter{
+        font-size: 20pt;
+        font-weight: bold;
+    }
+}
+

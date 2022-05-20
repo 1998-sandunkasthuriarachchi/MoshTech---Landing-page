@@ -1,0 +1,22 @@
+@import './variable.scss';
+
+.card{
+    border: none;
+    background-color: $dark_blue_700;
+    box-shadow: -1px 1px 44px 0px rgba(125,31,202,0.75);
+    -webkit-box-shadow: -1px 1px 44px 0px rgba(125,31,202,0.75);
+    -moz-box-shadow: -1px 1px 44px 0px rgba(125,31,202,0.75);
+
+    @media #{$media-mobile-sm}{
+      margin: 10px;
+    }
+
+    .card-body{
+        font-family: $Metal;
+        color: #fff;
+    }
+
+    :hover{
+        background-color: $red_color;
+    }
+}

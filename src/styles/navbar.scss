@@ -1,0 +1,30 @@
+@import './variable.scss';
+
+
+.navbar-brand{
+    font-family: $opensans;
+    font-size: 25px;
+    font-weight: 800;
+    background: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link{
+    font-family: $opensans;
+    font-weight: 500;
+    
+}
+
+.active-link{
+    border-bottom: 4px solid $red_color;
+    @media #{$media-mobile-sm}{
+        width: 0px;
+    }
+}
+
+    @media only screen and (max-device-width: 820px) {
+        .navbar{
+            background-color: $dark_blue_700;
+        }
+    }

@@ -1,0 +1,15 @@
+@import './variable.scss';
+
+.round-align{
+    text-align: center;
+    font-family: $opensans;
+    font-weight: 700;
+
+    i{
+        color: $purple_color;
+      }
+}
+
+h5{
+    color:#ffff;
+}

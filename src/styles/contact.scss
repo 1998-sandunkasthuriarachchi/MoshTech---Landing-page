@@ -1,0 +1,36 @@
+@import './variable.scss';
+
+.form-control {
+    border: none;
+
+    &:focus{
+        border: 1px solid $purple_color;
+    }
+}
+
+.paragraph{
+    color: #fff;
+    font-family: $Montserrat;
+}
+
+.submit{
+    width: 150px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: $Montserrat;
+    font-weight: bold;
+    border:none;
+    border: 1px solid $purple_color;
+    border-radius: 25px;
+    color: #fff;
+    background-color: transparent;
+
+    &:hover{
+        border: none;
+        background-color: $dark_blue_700;
+        box-shadow: -1px 1px 44px 0px rgba(125,31,202,0.75);
+        -webkit-box-shadow: -1px 1px 44px 0px rgba(125,31,202,0.75);
+        -moz-box-shadow: -1px 1px 44px 0px rgba(125,31,202,0.75);
+    }
+    
+}
